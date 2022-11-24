@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Skycore Dashboard</title>
+      <!--=============== Bootstrap 5 CDN ================-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+       <!--=============== Main Style ================-->
+      <link href="assets/css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="left-sidebar sidenav-open">
+         <div class="side-content-wrap">
+            <!--=============== Menubar ================-->
+            <div class="menubar open">
+               <ul class="navigation-left">
+                  <li class="nav-item active" data-item="menu1">
+                     <a class="nav-item-hold" href="#">
+                     <i class="bi bi-person-lines-fill"></i>
+                     </a>
+                     <div class="triangle"></div>
+                  </li>
+                  <li class="nav-item" data-item="menu2">
+                     <a class="nav-item-hold" href="#">
+                      <i class="bi bi-wrench-adjustable"></i>
+                     </a>
+                     <div class="triangle"></div>
+                  </li>
+                  <li class="nav-item" data-item="menu3">
+                     <a class="nav-item-hold" href="#">
+                     <i class="bi bi-chat-right-dots-fill"></i>
+                     </a>
+                     <div class="triangle"></div>
+                  </li>
+                  <li class="nav-item" data-item="menu4">
+                     <a class="nav-item-hold" href="#">
+                        <i class="bi bi-arrow-repeat"></i>
+                     </a>
+                     <div class="triangle"></div>
+                  </li>
+                  <li class="nav-item" data-item="menu5">
+                     <a class="nav-item-hold" href="#">
+                     <i class="bi bi-building-fill"></i>
+                     </a>
+                     <div class="triangle"></div>
+                  </li>
+               </ul>
+            </div>
+            <!--=============== Secondary Sidebar Menu ================-->
+            <div class="menubar-secondary">
+               <header>
+                  <div class="logo shadow rounded-3">
+                     <img src="assets/img/236x82.png" alt="logo">
+                     <span class="small">john.doe@example.com</span>
+                  </div>
+               </header>
+               <div class="submenu-area" data-parent="menu1" style="display: block;">
+                  <header>
+                     <h6> <i class="bi bi-person-lines-fill"></i> Menu Heading 1</h6>
+                  </header>
+                  <ul class="submenu-nav">
+                     <li class="nav-item">
+                        <a href="#" class="open">
+                        <span class="submenu-item">Menu Item 1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 2</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 3</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 4</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="submenu-area" data-parent="menu2" style="display: none;">
+                  <header>
+                     <h6> <i class="bi bi-arrow-repeat"></i> Menu Heading 2</h6>
+                  </header>
+                  <ul class="submenu-nav">
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 2.1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 2.2</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 2.3</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 2.4</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="submenu-area" data-parent="menu3" style="display: none;">
+                  <header>
+                     <h6><i class="bi bi-chat-right-dots-fill"></i> Menu Heading 3</h6>
+                  </header>
+                  <ul class="submenu-nav">
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 3.1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 3.2</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 3.3</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 3.4</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="submenu-area" data-parent="menu4" style="display: none;">
+                  <header>
+                     <h6><i class="bi bi-wrench-adjustable"></i> Menu Heading 4</h6>
+                  </header>
+                  <ul class="submenu-nav">
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 4.1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 4.2</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 4.3</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 4.4</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="submenu-area" data-parent="menu5" style="display: none;">
+                  <header>
+                     <h6><i class="bi bi-building-fill"></i> Menu Heading 5</h6>
+                  </header>
+                  <ul class="submenu-nav">
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 5.1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 5.2</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 5.3</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#">
+                        <span class="submenu-item">Menu Item 5.4</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!--=============== Menu Toggle ================-->
+         <div class="main-content-wrap d-flex flex-column">
+            <div class="main-header">
+               <div class="menu-toggle icon-up"></div>
+            </div>
+            <!-- ============ Body Content Start ============= -->
+            <div class="main-content">
+               <h1>Landing Page</h1>
+               <div class="separator"></div>
+               <div class="DropdownAccordion">
+               <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed bg-acg" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Accordion  <i class="bi bi-question-circle-fill ms-1"></i></b>
+                        </button>
+                     </h2>
+                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+               <div class="separator"></div>
+               <div class="ModelBox">
+               <div class="text-end">
+                  <button type="button" class="btn btn-primary shadow px-5" data-bs-toggle="modal" data-bs-target="#ModelBox">
+                  Button
+                  </button>
+               </div>
+               </div>
+               <div class="separator"></div>
+               <div class="dataTable">
+               <div class="table-responsive">
+                  <table class="table border">
+                     <thead>
+                        <tr class="table-secondary">
+                           <th scope="col">Column 1</th>
+                           <th scope="col">Column 2</th>
+                           <th scope="col">Column 3</th>
+                           <th scope="col">Column 4</th>
+                           <th scope="col">[X]</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <th scope="row">
+                              Lorem ipsum 
+                              </br>
+                              <ul class="list-inline mb-0 small">
+                                 <li class="list-inline-item"><a href="#" class="text-success  text-decoration-none" data-original-title="Status1">Status1</a></li>
+                                 <li class="list-inline-item"><a href="#" class="text-primary  text-decoration-none" data-original-title="Status2">Status2</a></li>
+                              </ul>
+                              <button type="button" class="btn btn-edit btn-sm my-1">
+                              Edit <i class="bi bi-pencil-square"></i> 
+                              </button>    
+                           </th>
+                           <td>Data</td>
+                           <td>Link1</td>
+                           <td>Data</td>
+                           <td>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                              </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               </div>
+               <div class="separator"></div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="ModelBox" tabindex="-1" aria-labelledby="ButtonPopUp" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="ButtonPopUp">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  ...
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+               </div>
+            </div>
+         </div>
+      </div>
+       <!--=============== Bootstrap 5 CDN ================-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      
+        <!--=============== Jquery ================-->
+      <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+       <!--=============== Custom JavaScript ================-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
